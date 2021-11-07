@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es">
+	<head>
+		<title>E3_U3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src="E3_U3.js"></script>
+		<style>
+			* {
+				font-family:monospace;
+			}
+			h1 {
+				text-align:center;
+			}
+			td, th {
+				padding:5px;
+				color:#3B3B3B;	
+				background-color:#DAFFD7;
+				text-align:center;
+			}
+			table {
+				background-color:#3B3B3B;
+				margin:auto;
+				width:100px;
+				box-shadow: 2px 2px 10px #666;
+			}
+			#idBoton {
+				color:black;
+				font-weight:bold;
+				box-shadow: 2px 2px 10px #666;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Hora en el título</h1>
+		<table border="1">
+			<tr>
+				<th>Horas</th>
+				<th>Minutos</th>
+				<th>segundos</th>
+			</tr>
+			<tr>
+				<td id="horas">00</td>
+				<td id="minutos">00</td>
+				<td id="segundos">00</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align:center;">
+					<input type="button" id="idBoton" onclick="parar()" value="Off" style="background-color:red;">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
